@@ -1,0 +1,15 @@
+{
+  "prediction_date": "2026-02-25",
+  "target_date": "2026-02-26",
+  "model_name": "Model 1 (Sniper)",
+  "model_version": "v3.0.17",
+  "status": "FAILED",
+  "failure_reason": "HALT: No NRT SHARP patches for asof_date=2026-02-25. JSOC may not have published today's NRT data yet. Do NOT fall back to previous day \u2014 stale magnetogram features would corrupt the prediction. Pipeline will retry on next run.",
+  "failure_time_utc": "2026-02-25T05:50:10.989157",
+  "prediction_window": {
+    "start": "2026-02-26T06:00:00Z",
+    "end": "2026-02-27T06:00:00Z",
+    "type": "Option C (rolling 06:00 UTC)"
+  },
+  "tiers": {}
+}
