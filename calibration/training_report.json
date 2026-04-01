@@ -2,18 +2,18 @@
   "model_name": "Model 1 (Sniper)",
   "model_version": "v3.0.17",
   "prediction_window": "[06:00 UTC D+1, 06:00 UTC D+2)",
-  "training_date": "2026-03-01",
-  "training_start_utc": "2026-03-01T05:00:05.698516",
+  "training_date": "2026-04-01",
+  "training_start_utc": "2026-04-01T05:00:05.078759",
   "training_environment": "Python 3.12.3, torch 2.10.0+cu128, numpy 2.4.2",
   "all_checkpoints_passed": true,
   "gap_repair": {
     "definitive_sharp_lookback_days": 90,
-    "definitive_sharp_rows_fetched": 373,
-    "definitive_sharp_net_new_rows": -191,
+    "definitive_sharp_rows_fetched": 652,
+    "definitive_sharp_net_new_rows": 279,
     "definitive_sharp_max_gap_days": 29,
     "donki_lookback_days": 30,
-    "donki_flares_fetched": 98,
-    "donki_net_new_flares": 0,
+    "donki_flares_fetched": 18,
+    "donki_net_new_flares": 2,
     "donki_max_gap_days": 389
   },
   "tiers": {
@@ -67,14 +67,14 @@
         "last_severity_global"
       ],
       "artifacts": {
-        "scaler.pkl": "sha256:28441e495f29bdf40c9eb6d0ac2a7b9c15e47bf4dc95d60cf99e6dd3c4e84d18",
-        "imputation_medians.json": "sha256:66e73a7ad21ed9c058139e8762f2ba74fd377b69ca1077404e0d423adc0c8511",
-        "threshold_config.json": "sha256:656e3e115e1701c8445b715fa356cfb89ef618e20ec25d2d97d7cc61471d12d6",
-        "model.pkl": "sha256:254a190e1bfc4f386a4a0ac5f182c3b16a96b82193bef3fd0d3f8cf8dcf31fa6",
+        "scaler.pkl": "sha256:4d856bedc6256e8b59e3ea4af6357ad051c6a0ebd3b612223693fd1e1f5580c7",
+        "imputation_medians.json": "sha256:ec0347f74f91d5cb64c8914e5edfe99d0900011951b2403a1cd0d7d16cb0df7c",
+        "threshold_config.json": "sha256:45d23ea0243827cb25eafd0c943b0886dbe257def3218a6ce6d9222d92d9eede",
+        "model.pkl": "sha256:c6a057a4809816459ffdc0f25338bf929d87ab0af4009b85bb23ac8cd96b395e",
         "garden_fit_stats.json": "sha256:a916547d7b3aceb6da8051a7be8c5016120c7c98bf50fab119677707df8b95a9"
       },
-      "train_events": 945,
-      "train_samples": 25960
+      "train_events": 958,
+      "train_samples": 26326
     },
     "M5_plus": {
       "features": "Garden+Persist",
@@ -126,15 +126,15 @@
         "last_severity_global"
       ],
       "artifacts": {
-        "tpm_delta_model.pkl": "sha256:f971eeb85595879ff627f6dcc82df5ef8a9ab5202493f2ca92a2ab9cf4e212d7",
-        "scaler.pkl": "sha256:28441e495f29bdf40c9eb6d0ac2a7b9c15e47bf4dc95d60cf99e6dd3c4e84d18",
-        "imputation_medians.json": "sha256:66e73a7ad21ed9c058139e8762f2ba74fd377b69ca1077404e0d423adc0c8511",
-        "threshold_config.json": "sha256:600eb0ee639dc16cc530c4baebb1779d056ea6eb8c266dd9144c1040a0f2fab3",
-        "model.pkl": "sha256:65855e629c65129a0d02fd3a22334ba3a1df194feeb43283d6c6b125f883999b",
+        "tpm_delta_model.pkl": "sha256:86657360c0c771fe07117d3a8852759fb4d96994c99951556a422a6f11f3107a",
+        "scaler.pkl": "sha256:4d856bedc6256e8b59e3ea4af6357ad051c6a0ebd3b612223693fd1e1f5580c7",
+        "imputation_medians.json": "sha256:ec0347f74f91d5cb64c8914e5edfe99d0900011951b2403a1cd0d7d16cb0df7c",
+        "threshold_config.json": "sha256:21034dc416a331ba50216f084b04543e94b6277d71d8cbf27ddb026efc5472d6",
+        "model.pkl": "sha256:e11d8e624dba19721c86f1cb18e63af5ecadfc896ef05300b43c4acadddc1b3e",
         "garden_fit_stats.json": "sha256:a916547d7b3aceb6da8051a7be8c5016120c7c98bf50fab119677707df8b95a9"
       },
-      "train_events": 233,
-      "train_samples": 25960
+      "train_events": 237,
+      "train_samples": 26326
     },
     "X_plus": {
       "features": "Combined+Persist",
@@ -222,20 +222,20 @@
         "last_severity_global"
       ],
       "artifacts": {
-        "scaler.pkl": "sha256:a102bbb8beb685126381c67b53f95d544b1e4ab2183ef68ba5b2a61fb74e502e",
-        "imputation_medians.json": "sha256:4ad20fdfb269eab05ce813f90ad9035daf2117e16df0e38773696e14e18f2062",
-        "model.pt": "sha256:4d683ad60d237e5186009250dc8cb6eddc0802bdf007302b0a42d1e7dbc2c63e",
-        "threshold_config.json": "sha256:e3ad8374e2d7daddd304ee510785b6a6c60d887b69ae9ab6bc37021f69ca2618",
+        "scaler.pkl": "sha256:0b6b7f06cc153d533a3a096e07fe9606190373031fe16b74453663742903fb24",
+        "imputation_medians.json": "sha256:ea6e15794e8cddcea3ca1ba180f0859bfd7df3ecbef3da7337155ce8ac5c9343",
+        "model.pt": "sha256:736cd9ea1baa29785e0e7016be12b6fb33344a40bad901fabb36c64fbdd31e18",
+        "threshold_config.json": "sha256:c7ce477af6d01e1b21626e38cdae44c96fc3849847e419d108e908501ba1b910",
         "garden_fit_stats.json": "sha256:a916547d7b3aceb6da8051a7be8c5016120c7c98bf50fab119677707df8b95a9",
         "architecture.json": "sha256:731fd012beabf06fb2e328a3c96e998ea354f298df98d5f29a4356b42c08b1ab"
       },
-      "train_events": 105,
-      "train_samples": 25960
+      "train_events": 109,
+      "train_samples": 26326
     }
   },
   "data_hashes": {
-    "SHARP_MASTER_DAILY": "sha256:d09adae84c0eb1068cd88532e58c6adde9f3a1ac863f3f3bcd18959ac761fd92",
-    "UNIFIED_MASTER": "sha256:e5f9e1e0893a344cb86d6b44d3fbb6b24eab78b5c23079b4ed3485f0703c4c44"
+    "SHARP_MASTER_DAILY": "sha256:9771dec015e46a5c119e812c2a81deb1b56a4fa6573bc9638864ad76eafd06a0",
+    "UNIFIED_MASTER": "sha256:dee00f83eb0af721099ab69f4e7aeee9989433f059c8b18de2ec067c82224f51"
   },
-  "training_duration_seconds": 19.647289
+  "training_duration_seconds": 20.577713
 }
