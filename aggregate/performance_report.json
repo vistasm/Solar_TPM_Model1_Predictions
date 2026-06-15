@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-06-14T05:50:20Z",
+    "generated_at": "2026-06-15T05:50:18Z",
     "model_name": "Model 1 (Sniper)",
     "model_version": "v3.0.17",
     "windows": [
@@ -38,9 +38,9 @@
     },
     "date_range": {
       "start": "2026-03-10",
-      "end": "2026-06-10"
+      "end": "2026-06-11"
     },
-    "n_days_verified": 93
+    "n_days_verified": 94
   },
   "summary": {
     "M_plus": {
@@ -231,21 +231,21 @@
         "confusion_matrix": {
           "hits": 3,
           "false_alarms": 31,
-          "misses": 17,
-          "true_negatives": 36
+          "misses": 16,
+          "true_negatives": 37
         },
         "metrics": {
           "precision": 0.0882,
-          "recall": 0.15,
-          "f1_score": 0.1111,
-          "far": 0.4627,
-          "lift": 0.38,
+          "recall": 0.1579,
+          "f1_score": 0.1132,
+          "far": 0.4559,
+          "lift": 0.4,
           "alert_rate": 0.3908
         },
         "totals": {
           "n_predictions": 87,
-          "n_events": 20,
-          "base_rate": 0.229885
+          "n_events": 19,
+          "base_rate": 0.218391
         },
         "ar_attribution": {
           "wrong_ar_alerts": 7,
