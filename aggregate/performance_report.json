@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-06-21T05:50:28Z",
+    "generated_at": "2026-06-22T05:50:19Z",
     "model_name": "Model 1 (Sniper)",
     "model_version": "v3.0.17",
     "windows": [
@@ -38,9 +38,9 @@
     },
     "date_range": {
       "start": "2026-03-10",
-      "end": "2026-06-17"
+      "end": "2026-06-18"
     },
-    "n_days_verified": 100
+    "n_days_verified": 101
   },
   "summary": {
     "M_plus": {
@@ -48,7 +48,7 @@
       "recall": 0.0,
       "f1_score": 0,
       "lift": 0,
-      "alert_rate": 0.3704,
+      "alert_rate": 0.3333,
       "n_predictions_30d": 27,
       "n_events_30d": 5
     },
@@ -153,17 +153,17 @@
       "M_plus": {
         "confusion_matrix": {
           "hits": 0,
-          "false_alarms": 10,
+          "false_alarms": 9,
           "misses": 5,
-          "true_negatives": 12
+          "true_negatives": 13
         },
         "metrics": {
           "precision": 0.0,
           "recall": 0.0,
           "f1_score": 0,
-          "far": 0.4545,
+          "far": 0.4091,
           "lift": 0,
-          "alert_rate": 0.3704
+          "alert_rate": 0.3333
         },
         "totals": {
           "n_predictions": 27,
@@ -171,8 +171,8 @@
           "base_rate": 0.185185
         },
         "ar_attribution": {
-          "wrong_ar_alerts": 1,
-          "ar_attribution_rate": 0.0
+          "wrong_ar_alerts": 0,
+          "ar_attribution_rate": null
         }
       },
       "M5_plus": {
@@ -230,17 +230,17 @@
       "M_plus": {
         "confusion_matrix": {
           "hits": 3,
-          "false_alarms": 30,
+          "false_alarms": 29,
           "misses": 14,
-          "true_negatives": 40
+          "true_negatives": 41
         },
         "metrics": {
-          "precision": 0.0909,
+          "precision": 0.0938,
           "recall": 0.1765,
-          "f1_score": 0.12,
-          "far": 0.4286,
-          "lift": 0.47,
-          "alert_rate": 0.3793
+          "f1_score": 0.1224,
+          "far": 0.4143,
+          "lift": 0.48,
+          "alert_rate": 0.3678
         },
         "totals": {
           "n_predictions": 87,
