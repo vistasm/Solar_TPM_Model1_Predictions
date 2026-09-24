@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-23T05:50:16Z",
+    "generated_at": "2026-09-24T05:50:22Z",
     "model_name": "Model 1 (Sniper)",
     "model_version": "v3.0.17",
     "windows": [
@@ -38,19 +38,19 @@
     },
     "date_range": {
       "start": "2026-03-10",
-      "end": "2026-09-19"
+      "end": "2026-09-20"
     },
-    "n_days_verified": 191
+    "n_days_verified": 192
   },
   "summary": {
     "M_plus": {
-      "precision": 0.4286,
-      "recall": 0.6,
-      "f1_score": 0.5,
-      "lift": 2.23,
-      "alert_rate": 0.2692,
+      "precision": 0.3333,
+      "recall": 0.5,
+      "f1_score": 0.4,
+      "lift": 2.17,
+      "alert_rate": 0.2308,
       "n_predictions_30d": 26,
-      "n_events_30d": 5
+      "n_events_30d": 4
     },
     "M5_plus": {
       "precision": 0,
@@ -152,27 +152,27 @@
     "30d": {
       "M_plus": {
         "confusion_matrix": {
-          "hits": 3,
+          "hits": 2,
           "false_alarms": 4,
           "misses": 2,
-          "true_negatives": 17
+          "true_negatives": 18
         },
         "metrics": {
-          "precision": 0.4286,
-          "recall": 0.6,
-          "f1_score": 0.5,
-          "far": 0.1905,
-          "lift": 2.23,
-          "alert_rate": 0.2692
+          "precision": 0.3333,
+          "recall": 0.5,
+          "f1_score": 0.4,
+          "far": 0.1818,
+          "lift": 2.17,
+          "alert_rate": 0.2308
         },
         "totals": {
           "n_predictions": 26,
-          "n_events": 5,
-          "base_rate": 0.192308
+          "n_events": 4,
+          "base_rate": 0.153846
         },
         "ar_attribution": {
           "wrong_ar_alerts": 1,
-          "ar_attribution_rate": 0.75
+          "ar_attribution_rate": 0.6667
         }
       },
       "M5_plus": {
@@ -230,17 +230,17 @@
       "M_plus": {
         "confusion_matrix": {
           "hits": 11,
-          "false_alarms": 19,
+          "false_alarms": 18,
           "misses": 8,
-          "true_negatives": 46
+          "true_negatives": 47
         },
         "metrics": {
-          "precision": 0.3667,
+          "precision": 0.3793,
           "recall": 0.5789,
-          "f1_score": 0.449,
-          "far": 0.2923,
-          "lift": 1.62,
-          "alert_rate": 0.3571
+          "f1_score": 0.4583,
+          "far": 0.2769,
+          "lift": 1.68,
+          "alert_rate": 0.3452
         },
         "totals": {
           "n_predictions": 84,
