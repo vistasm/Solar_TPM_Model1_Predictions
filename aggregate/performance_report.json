@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-10-30T18:47:51Z",
+    "generated_at": "2026-10-30T18:48:16Z",
     "model_name": "Model 1 (Sniper)",
     "model_version": "v3.0.17",
     "windows": [
@@ -38,18 +38,18 @@
     },
     "date_range": {
       "start": "2026-03-10",
-      "end": "2026-10-19"
+      "end": "2026-10-20"
     },
-    "n_days_verified": 224
+    "n_days_verified": 225
   },
   "summary": {
     "M_plus": {
       "precision": 0.2,
       "recall": 0.4,
       "f1_score": 0.2667,
-      "lift": 0.8,
-      "alert_rate": 0.5,
-      "n_predictions_30d": 20,
+      "lift": 0.84,
+      "alert_rate": 0.4762,
+      "n_predictions_30d": 21,
       "n_events_30d": 5
     },
     "M5_plus": {
@@ -58,7 +58,7 @@
       "f1_score": 0,
       "lift": 0,
       "alert_rate": 0.0,
-      "n_predictions_30d": 20,
+      "n_predictions_30d": 21,
       "n_events_30d": 2
     },
     "X_plus": {
@@ -67,7 +67,7 @@
       "f1_score": 0,
       "lift": 0,
       "alert_rate": 0.0,
-      "n_predictions_30d": 20,
+      "n_predictions_30d": 21,
       "n_events_30d": 0
     }
   },
@@ -79,20 +79,20 @@
           "hits": 2,
           "false_alarms": 8,
           "misses": 3,
-          "true_negatives": 7
+          "true_negatives": 8
         },
         "metrics": {
           "precision": 0.2,
           "recall": 0.4,
           "f1_score": 0.2667,
-          "far": 0.5333,
-          "lift": 0.8,
-          "alert_rate": 0.5
+          "far": 0.5,
+          "lift": 0.84,
+          "alert_rate": 0.4762
         },
         "totals": {
-          "n_predictions": 20,
+          "n_predictions": 21,
           "n_events": 5,
-          "base_rate": 0.25
+          "base_rate": 0.238095
         },
         "ar_attribution": {
           "wrong_ar_alerts": 2,
@@ -104,7 +104,7 @@
           "hits": 0,
           "false_alarms": 0,
           "misses": 2,
-          "true_negatives": 18
+          "true_negatives": 19
         },
         "metrics": {
           "precision": 0,
@@ -115,9 +115,9 @@
           "alert_rate": 0.0
         },
         "totals": {
-          "n_predictions": 20,
+          "n_predictions": 21,
           "n_events": 2,
-          "base_rate": 0.1
+          "base_rate": 0.095238
         },
         "ar_attribution": {
           "wrong_ar_alerts": 0,
@@ -129,7 +129,7 @@
           "hits": 0,
           "false_alarms": 0,
           "misses": 0,
-          "true_negatives": 20
+          "true_negatives": 21
         },
         "metrics": {
           "precision": 0,
@@ -140,7 +140,7 @@
           "alert_rate": 0.0
         },
         "totals": {
-          "n_predictions": 20,
+          "n_predictions": 21,
           "n_events": 0,
           "base_rate": 0.0
         },
@@ -156,20 +156,20 @@
           "hits": 6,
           "false_alarms": 19,
           "misses": 6,
-          "true_negatives": 49
+          "true_negatives": 50
         },
         "metrics": {
           "precision": 0.24,
           "recall": 0.5,
           "f1_score": 0.3243,
-          "far": 0.2794,
-          "lift": 1.6,
-          "alert_rate": 0.3125
+          "far": 0.2754,
+          "lift": 1.62,
+          "alert_rate": 0.3086
         },
         "totals": {
-          "n_predictions": 80,
+          "n_predictions": 81,
           "n_events": 12,
-          "base_rate": 0.15
+          "base_rate": 0.148148
         },
         "ar_attribution": {
           "wrong_ar_alerts": 4,
@@ -181,7 +181,7 @@
           "hits": 0,
           "false_alarms": 0,
           "misses": 4,
-          "true_negatives": 76
+          "true_negatives": 77
         },
         "metrics": {
           "precision": 0,
@@ -192,9 +192,9 @@
           "alert_rate": 0.0
         },
         "totals": {
-          "n_predictions": 80,
+          "n_predictions": 81,
           "n_events": 4,
-          "base_rate": 0.05
+          "base_rate": 0.049383
         },
         "ar_attribution": {
           "wrong_ar_alerts": 0,
@@ -206,7 +206,7 @@
           "hits": 0,
           "false_alarms": 0,
           "misses": 0,
-          "true_negatives": 80
+          "true_negatives": 81
         },
         "metrics": {
           "precision": 0,
@@ -217,7 +217,7 @@
           "alert_rate": 0.0
         },
         "totals": {
-          "n_predictions": 80,
+          "n_predictions": 81,
           "n_events": 0,
           "base_rate": 0.0
         },
