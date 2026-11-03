@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-11-02T05:50:22Z",
+    "generated_at": "2026-11-03T05:50:16Z",
     "model_name": "Model 1 (Sniper)",
     "model_version": "v3.0.17",
     "windows": [
@@ -38,9 +38,9 @@
     },
     "date_range": {
       "start": "2026-03-10",
-      "end": "2026-10-29"
+      "end": "2026-10-30"
     },
-    "n_days_verified": 234
+    "n_days_verified": 235
   },
   "summary": {
     "M_plus": {
